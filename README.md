@@ -1,130 +1,70 @@
 # AI Search Algorithm Implementations
 
-This repository contains implementations of common Artificial Intelligence search algorithms using Python.  
-The project is designed for learning, practice, and academic purposes.
+A Python learning repository for exploring classical Artificial Intelligence search strategies and graph-based problem solving.
 
-## 📌 Features
+The implementations and notebooks are intended to help students understand how search algorithms explore states, select paths, and trade off completeness, optimality, and efficiency.
 
-- Implementation of classic AI search algorithms
-- Easy-to-understand Python code
-- Beginner-friendly project structure
-- Suitable for AI and algorithm learning
+## Algorithms covered
 
----
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Uniform-Cost Search (UCS)
+- Greedy Best-First Search
+- A* Search
 
-## 🚀 Technologies Used
+The exact set of completed implementations may evolve as the repository is developed.
+
+## Technology
 
 - Python 3
-- Git & GitHub
-- VS Code
+- Jupyter Notebook
+- Git and GitHub
 
----
+## Repository contents
 
-## 📂 Project Structure
+The repository includes notebooks and Python files for graph representation and individual search strategies. Browse the `algorithms/` directory to explore the implementations.
 
-```bash
-ai-search-algorithm-implementations/
-│
-├── README.md
-├──documents.ipynb
-├── graph.py
-├── algorithms/
-│   ├── bfs.ipynb
-│   ├── dfs.ipynb
-│   ├── astar.ipynb
-│   └── greaddy.ipynb
-└── examples/
-```
+## Getting started
 
----
-
-## 🧠 Algorithms Included
-
-- Breadth First Search (BFS)
-- Depth First Search (DFS)
-- Uniform Cost Search (UCS)
-- A* Search Algorithm
-- Greedy Best First Search
-- Other AI search techniques
-
----
-
-## ⚙️ Installation
-
-### 1 Clone the Repository
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-search-algorithm-implementations.git
+git clone https://github.com/kura458/AI-Search-Algorithm-Implementations.git
+cd AI-Search-Algorithm-Implementations
 ```
 
-### 2 Navigate into the Project Folder
+2. (Optional) Create and activate a virtual environment:
 
 ```bash
-cd ai-search-algorithm-implementations
+python -m venv venv
+venv\Scripts\activate
 ```
 
-### 3 Install Dependencies
+3. Install Jupyter if it is not already available:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install jupyter
 ```
 
----
-
-## ▶️ Running the Project
-
-Run the main Python file:
+4. Start Jupyter:
 
 ```bash
-python main.py
+jupyter notebook
 ```
 
-Or run a specific algorithm file:
+Open the relevant notebook and run its cells in order. Some examples may also be run directly with Python where an executable script is provided.
 
-```bash
-python bfs.py
-```
+## Learning objectives
 
----
+- Understand graph traversal and state-space search
+- Compare uninformed and informed search strategies
+- Explore heuristic-guided pathfinding
+- Practice implementing algorithms in Python
+- Analyze how algorithm choice affects the search process
 
-## 📖 Learning Objectives
+## Author
 
-This project helps students understand:
-
-- Problem-solving techniques in AI
-- Graph traversal algorithms
-- Pathfinding methods
-- Search optimization strategies
-- Python programming practices
+[Kura Lemma](https://github.com/kura458)
 
 ---
-
-## 💻 Recommended IDE
-
-- Visual Studio Code
-- PyCharm
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a new branch
-3. Make improvements
-4. Submit a pull request
-
----
-
-## 📜 License
-
-This project is for educational purposes.
-
----
-
-## 👨‍💻 Author
-
-Developed by Kura Lemma
-
-GitHub: https://github.com/kura458
+Educational project for AI and algorithm practice.
